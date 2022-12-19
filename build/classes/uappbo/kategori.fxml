@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uappbo.KategoriController">
+   <children>
+      <Label layoutX="246.0" layoutY="24.0" text="Kategori Barang">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Tkategori" layoutX="62.0" layoutY="75.0" prefHeight="250.0" prefWidth="220.0">
+        <columns>
+            <TableColumn fx:id="Knama" prefWidth="100.800048828125" text="Nama Produk" />
+            <TableColumn fx:id="Kkat" prefWidth="118.39996337890625" text="Kategori" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnKembali" layoutX="487.0" layoutY="334.0" mnemonicParsing="false" onAction="#backHome" text="Kembali" />
+   </children>
+</AnchorPane>

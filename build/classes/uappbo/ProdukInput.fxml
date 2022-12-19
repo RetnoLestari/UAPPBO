@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uappbo.ProdukInputController">
+   <children>
+      <Button fx:id="btnMakanan" layoutX="179.0" layoutY="174.0" mnemonicParsing="false" onAction="#barangIpt" prefHeight="42.0" prefWidth="87.0" text="Barang" />
+      <Button fx:id="btnProduk" layoutX="332.0" layoutY="174.0" mnemonicParsing="false" onAction="#makanInp" prefHeight="42.0" prefWidth="87.0" text="Makanan" />
+      <Button fx:id="btnKembali" layoutX="504.0" layoutY="336.0" mnemonicParsing="false" onAction="#kembali" text="Kembali" />
+   </children>
+</AnchorPane>

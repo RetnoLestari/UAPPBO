@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="uapPBO.jnlp">
+  <information>
+    <title>uapPBO</title>
+    <vendor>John Wilken</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/mysql-connector-j-8.0.31.jar" size="2515519" download="eager" />
+    <jar href="uapPBO.jar" size="37601" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="uapPBO" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="uappbo.UapPBO"  name="uapPBO" />
+  <update check="always"/>
+</jnlp>
